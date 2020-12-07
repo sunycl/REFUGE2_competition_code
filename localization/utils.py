@@ -3,13 +3,6 @@ import cv2
 import numpy as np
 
 
-'''
-filename_path = r'F:\kakaresults\one-stage_filename.npy'
-dis_path = r'F:\kakaresults\one-stage_result.npy'
-filename = np.load(filename_path)
-distance = np.load(dis_path)
-error = np.array(np.where(distance<30)).squeeze()
-'''
 
 
 def get_datalist(fold=0,error_mode=False):
